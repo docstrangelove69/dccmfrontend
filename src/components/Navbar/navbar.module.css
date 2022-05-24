@@ -1,0 +1,28 @@
+.container {
+  height: 10vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+.logo {
+  height: 80px;
+  width: 150px;
+  margin-right: 120px;
+}
+.navLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  color: #999999;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navLinks .active {
+  color: #000;
+  text-decoration: underline #73c000 2px;
+}
